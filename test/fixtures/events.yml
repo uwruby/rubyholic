@@ -1,0 +1,9 @@
+birthday:
+  description: My Birthday
+  location: my_house
+  group: awesome_group
+
+ruby_meeting:
+  description: Normal Meeting
+  location: vivace
+  group: ruby_group

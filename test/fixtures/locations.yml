@@ -1,0 +1,11 @@
+my_house:
+  name: My House
+  latitude: 189.6
+  longitude: 100.0
+  address: somewhere
+
+vivace:
+  name: Vivace
+  latitude: 189.6
+  longitude: 100.0
+  address: somewhere else
