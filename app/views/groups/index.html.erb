@@ -1,3 +1,9 @@
+<% if @location %>
+  <h1>I see that you are in <%= @location[7] %>, <%= @location[6] %></h1>
+<% else %>
+  <h1>You confuse me!</h1>
+<% end %>
+
 <ul>
   <% @groups.each do |group| %>
     <li><%= group.name %></li>
