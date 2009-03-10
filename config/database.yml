@@ -3,6 +3,8 @@
 development:
   adapter: mysql
   database: rubyholic_dev
+  username: root
+  password:
   pool: 5
   timeout: 5000
 
@@ -12,11 +14,15 @@ development:
 test:
   adapter: mysql
   database: rubyholic_test
+  username: root
+  password:
   pool: 5
   timeout: 5000
 
 production:
   adapter: mysql
   database: rubyholic_production
+  username: root
+  password:
   pool: 5
   timeout: 5000
