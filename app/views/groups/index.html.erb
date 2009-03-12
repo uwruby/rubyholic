@@ -1,5 +1,12 @@
+<table>
+  <% request.headers.each do |key,value| %>
+  <tr>
+    <td><%= key %></td><td><%= value %></td>
+  </tr>
+  <% end %>
+</table>
 <% if @location %>
-  <h1>I see that you are in <%= @location[7] %>, <%= @location[6] %></h1>
+  <h1>I see that you are in <%= @location[7].blank? ? 'foo' : @location[7] %>, <%= @location[6] %></h1>
 <% else %>
   <h1>You confuse me!</h1>
 <% end %>
